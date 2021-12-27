@@ -1,7 +1,7 @@
 import {useState} from 'react'
 
 const useFormulario = (inicial) =>{
-    const [formulario, setFormulario] = useState(iniciar)
+    const [formulario, setFormulario] = useState(inicial)
     const handleChange = (e) =>{
       setFormulario({...formulario,[e.target.name] : e.target.value})
     }
